@@ -1,0 +1,115 @@
+        /* test */
+        .test{
+            background-color: red;
+        }
+        /* actual */
+        body{
+            background:#f8f9fa;
+            font-family: Arial, sans-serif;
+        }
+        
+        .navbar{
+            background:white;
+            box-shadow:0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .hero{
+            padding:100px 0;
+        }
+
+        .hero h1{
+            font-size:4rem;
+            font-weight:700;
+        }
+
+        .role{
+            color:#4f46e5;
+            font-size:1.5rem;
+            font-weight:500;
+        }
+
+        .profile-img{
+            width:320px;
+            height:320px;
+            object-fit:cover;
+            border-radius:50%;
+            border:8px solid white;
+            box-shadow:0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .card-custom{
+            border:none;
+            border-radius:20px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .section-title{
+            font-weight:700;
+            margin-bottom:30px;
+        }
+
+        .project-card{
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-5px);
+        }
+
+        .certificate-card{
+            border-left:4px solid #4f46e5;
+        }
+
+        footer{
+            background:white;
+            margin-top:50px;
+        }
+        
+        .contact-icon{
+            font-size:1.4rem;
+            color:#4f46e5;
+        }
+
+        .contact_rows{
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .cl_workexp_jobtitle{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .middle_center{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .projectsPage_projdetailsContainer{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        .iframe{
+            width: 100%;
+        }
+        .flex_columnpos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+        }
+        .btn_github{
+            text-align: left;
+        }
+        .projects_ListStyle{
+            list-style: none;
+            border-bottom: solid 1px rgb(211, 211, 211);
+        }
+        .iframe_inc{
+            height: 325px;
+        }
